@@ -422,42 +422,48 @@ section {
   padding: 0px;
 }
 
-#contact img {
+#contact .ytlogo {
+  margin-top: -40px;
+}
+
+#contact .logoyt img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #d4101d;
+}
+#contact .logotwitch img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #8d24aa;
+}
+#contact .twitchlogo {
+  margin-top: -40px;
 }
 #contact .creator1 {
-  border-width: 4px;
-  border-color:darkkhaki;
-  border-style: solid;
   overflow: auto;
   float: left;
   margin-left: 9%;
   margin-bottom: 5%;
 }
 #contact .creator2 {
-  border-width: 4px;
-  border-color:darkkhaki;
-  border-style: solid;
   overflow: auto;
   float: left;
   margin-left: 9%;
   margin-bottom: 5%;
 }
 #contact .creator3 {
-  border-width: 4px;
-  border-color:darkkhaki;
-  border-style: solid;
   overflow: auto;
   float: left;
   margin-left: 9%;
   margin-bottom: 5%;
 }
 #contact .creator4 {
-  border-width: 4px;
-  border-color:darkkhaki;
-  border-style: solid;
   overflow: auto;
   float: left;
   margin-left: 9%;
